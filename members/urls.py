@@ -21,8 +21,12 @@ from django.contrib.auth import views as auth_views
 from django.views.generic.base import RedirectView
 from graphene_django.views import GraphQLView
 from django.views.decorators.csrf import csrf_exempt
+from django.urls import path
+from members.views import test_form, DepartmentDetailView
 
 urlpatterns = [
+    path("<slug:slug>/", DepartmentDetailView.as_view(), name="article-detail"),
+    # url(r"^form$", AddressFormView, name="form_test"),
     url(r"^$", EntryPage, name="entry_page"),
     url(r"^graphql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
     url(

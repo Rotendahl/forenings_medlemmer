@@ -1,0 +1,3413 @@
+[36;1mOperations to perform:[0m
+[1m  Apply all migrations: [0madmin, auth, contenttypes, django_cron, members, sessions
+[36;1mRunning migrations:[0m
+  No migrations to apply.
+Found another file with the destination path 'admin/css/responsive.css'. It will be ignored since only the first encountered file is collected. If this is not what you want, make sure every static file has a unique path.
+Found another file with the destination path 'admin/css/responsive_rtl.css'. It will be ignored since only the first encountered file is collected. If this is not what you want, make sure every static file has a unique path.
+
+180 static files copied to '/app/staticfiles'.
+[
+{
+    "model": "members.address",
+    "pk": 1,
+    "fields": {
+        "streetname": "Vesterbrogade",
+        "housenumber": "137",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn V",
+        "zipcode": "1620",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.540401",
+        "latitude": "55.670122",
+        "dawa_id": "0a3f50a1-97dd-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 2,
+    "fields": {
+        "streetname": "Lyrskovgade",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn V",
+        "zipcode": "1758",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.543715",
+        "latitude": "55.667827",
+        "dawa_id": "e5dc22c3-a21c-463c-b0f2-a17faa22eb73"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 3,
+    "fields": {
+        "streetname": "Humletorvet",
+        "housenumber": "3",
+        "floor": "2. sal",
+        "door": "Warehouse",
+        "placename": null,
+        "city": "K\u00f8benhavn V",
+        "zipcode": "1799",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 4,
+    "fields": {
+        "streetname": "Lykkesholms All\u00e9",
+        "housenumber": "3A",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg C",
+        "zipcode": "1902",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.547164",
+        "latitude": "55.675828",
+        "dawa_id": "17ee14e6-d0d1-4001-9242-9a48984aa4bd"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 5,
+    "fields": {
+        "streetname": "Danasvej",
+        "housenumber": "30B",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg C",
+        "zipcode": "1910",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.550752",
+        "latitude": "55.679550",
+        "dawa_id": "0a3f50a2-25ca-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 6,
+    "fields": {
+        "streetname": "P.G. Ramms Alle",
+        "housenumber": "26",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg",
+        "zipcode": "2000",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.508819",
+        "latitude": "55.680520",
+        "dawa_id": "0a3f50a2-b144-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 7,
+    "fields": {
+        "streetname": "Nyelandsvej",
+        "housenumber": "27",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg",
+        "zipcode": "2000",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.529578",
+        "latitude": "55.683100",
+        "dawa_id": "4d22e3a3-3c6e-4330-995a-634b7b2096a2"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 8,
+    "fields": {
+        "streetname": "P.G. Ramms Alle",
+        "housenumber": "26",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg",
+        "zipcode": "2000",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.508819",
+        "latitude": "55.680520",
+        "dawa_id": "0a3f50a2-b144-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 9,
+    "fields": {
+        "streetname": "Falkoner Plads",
+        "housenumber": "3",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg",
+        "zipcode": "2000",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.530364",
+        "latitude": "55.680754",
+        "dawa_id": "571fb330-3284-497c-bc16-b9a20d40ac1a"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 10,
+    "fields": {
+        "streetname": "\u00d8ster All\u00e9",
+        "housenumber": "1",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "K\u00f8benhavn \u00d8",
+        "zipcode": "2100",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 11,
+    "fields": {
+        "streetname": "Universitetsparken",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn \u00d8",
+        "zipcode": "2100",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.561103",
+        "latitude": "55.702084",
+        "dawa_id": "aaed565e-fc00-442e-b36b-2b7f9c523cbf"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 12,
+    "fields": {
+        "streetname": "Rosenv\u00e6ngets All\u00e9",
+        "housenumber": "25",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn \u00d8",
+        "zipcode": "2100",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.581830",
+        "latitude": "55.699483",
+        "dawa_id": "1f820c8a-7027-4a2b-b877-a923624e318b"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 13,
+    "fields": {
+        "streetname": "Fruebjergvej",
+        "housenumber": "3",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn \u00d8",
+        "zipcode": "2100",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.549398",
+        "latitude": "55.715679",
+        "dawa_id": "2b2a8d16-0694-461f-b78b-bf59b62fe749"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 14,
+    "fields": {
+        "streetname": "Lyngbyvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn \u00d8",
+        "zipcode": "2100",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.563111",
+        "latitude": "55.707058",
+        "dawa_id": "7e58262a-7269-4e5e-9562-e783eade3395"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 15,
+    "fields": {
+        "streetname": "Borups All\u00e9",
+        "housenumber": "43",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn N",
+        "zipcode": "2200",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.536769",
+        "latitude": "55.692172",
+        "dawa_id": "8c327fa1-0984-4f1c-865a-a78a76b1d2cf"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 16,
+    "fields": {
+        "streetname": "Korsgade",
+        "housenumber": "14",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn N",
+        "zipcode": "2200",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.558257",
+        "latitude": "55.685145",
+        "dawa_id": "9713612c-4ea1-46b7-badd-17e9350e7250"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 17,
+    "fields": {
+        "streetname": "Islands Brygge",
+        "housenumber": "55",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn S",
+        "zipcode": "2300",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.573425",
+        "latitude": "55.663616",
+        "dawa_id": "eb280219-3242-428e-9f05-28b1fb968f37"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 18,
+    "fields": {
+        "streetname": "Rued Langgaards Vej",
+        "housenumber": "7",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn S",
+        "zipcode": "2300",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.591235",
+        "latitude": "55.659886",
+        "dawa_id": "02ba51b3-3482-4c59-be8f-f42bf2b243b6"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 19,
+    "fields": {
+        "streetname": "Frederikssundsvej",
+        "housenumber": "81D",
+        "floor": "3",
+        "door": "th",
+        "placename": null,
+        "city": "K\u00f8benhavn NV",
+        "zipcode": "2400",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.523828",
+        "latitude": "55.705307",
+        "dawa_id": "0a3f509e-2757-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 20,
+    "fields": {
+        "streetname": "Lygten",
+        "housenumber": "37",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn NV",
+        "zipcode": "2400",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.537541",
+        "latitude": "55.703934",
+        "dawa_id": "b62cde47-42fd-4d3a-b6c9-98a3a27110c2"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 21,
+    "fields": {
+        "streetname": "Tagensvej",
+        "housenumber": "188",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8benhavn NV",
+        "zipcode": "2400",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.539200",
+        "latitude": "55.709712",
+        "dawa_id": "8c5e99e0-01f6-4aae-ad57-27291107c3de"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 22,
+    "fields": {
+        "streetname": "Valg\u00e5rdsvej",
+        "housenumber": "4",
+        "floor": "3",
+        "door": null,
+        "placename": null,
+        "city": "Valby",
+        "zipcode": "2500",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.518460",
+        "latitude": "55.661114",
+        "dawa_id": "95c2b27f-cd12-4d86-9573-e497f605073d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 23,
+    "fields": {
+        "streetname": "Kirseb\u00e6rhaven",
+        "housenumber": "23",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Valby",
+        "zipcode": "2500",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.503313",
+        "latitude": "55.649231",
+        "dawa_id": "96a80a8d-b579-4a03-94db-5b1e7ae7cc51"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 24,
+    "fields": {
+        "streetname": "Valg\u00e5rdsvej",
+        "housenumber": "4",
+        "floor": "3",
+        "door": null,
+        "placename": null,
+        "city": "Valby",
+        "zipcode": "2500",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.518460",
+        "latitude": "55.661114",
+        "dawa_id": "95c2b27f-cd12-4d86-9573-e497f605073d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 25,
+    "fields": {
+        "streetname": "Kildev\u00e6ldets Alle",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Glostrup",
+        "zipcode": "2600",
+        "region": "Region Hovedstaden",
+        "municipality": "Glostrup",
+        "longitude": "12.393874",
+        "latitude": "55.663650",
+        "dawa_id": "beb75784-f7d8-4120-a40b-71a2000367bf"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 26,
+    "fields": {
+        "streetname": "Egeg\u00e5rdsvej",
+        "housenumber": "79",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8dovre",
+        "zipcode": "2610",
+        "region": null,
+        "municipality": null,
+        "longitude": "12.452923",
+        "latitude": "55.682908",
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 27,
+    "fields": {
+        "streetname": "Ish\u00f8j Store Torv",
+        "housenumber": "1",
+        "floor": "kl",
+        "door": null,
+        "placename": null,
+        "city": "Ish\u00f8j",
+        "zipcode": "2635",
+        "region": "Region Hovedstaden",
+        "municipality": "Ish\u00f8j",
+        "longitude": "12.355977",
+        "latitude": "55.613760",
+        "dawa_id": "322b734d-2c9d-4237-8b0e-e063ea642b3c"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 28,
+    "fields": {
+        "streetname": "Risbjergvej",
+        "housenumber": "10-20",
+        "floor": "1",
+        "door": "",
+        "placename": null,
+        "city": "Hvidovre",
+        "zipcode": "2650",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 29,
+    "fields": {
+        "streetname": "Vallensb\u00e6k Stationstorv",
+        "housenumber": "40",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Vallensb\u00e6k Strand",
+        "zipcode": "2665",
+        "region": "Region Hovedstaden",
+        "municipality": "Vallensb\u00e6k",
+        "longitude": "12.387563",
+        "latitude": "55.624034",
+        "dawa_id": "d24c210a-1b49-4480-9766-897435b335cf"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 30,
+    "fields": {
+        "streetname": "Portalen",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Greve",
+        "zipcode": "2670",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Greve",
+        "longitude": "12.331852",
+        "latitude": "55.597823",
+        "dawa_id": "28d83013-1315-4bf7-9db8-58a3645481d4"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 31,
+    "fields": {
+        "streetname": "Solr\u00f8d Center",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Solr\u00f8d Strand",
+        "zipcode": "2680",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Solr\u00f8d",
+        "longitude": "12.213931",
+        "latitude": "55.533314",
+        "dawa_id": "ccff516b-5a51-411b-a281-a4465b71f918"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 32,
+    "fields": {
+        "streetname": "Skolesiden",
+        "housenumber": "4",
+        "floor": "2",
+        "door": "",
+        "placename": null,
+        "city": "Br\u00f8nsh\u00f8j",
+        "zipcode": "2700",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 33,
+    "fields": {
+        "streetname": "Frode Jakobsens Plads",
+        "housenumber": "4",
+        "floor": "1",
+        "door": null,
+        "placename": null,
+        "city": "Vanl\u00f8se",
+        "zipcode": "2720",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.491066",
+        "latitude": "55.687068",
+        "dawa_id": "451ae211-611f-41dd-8c4b-3d4f725b413a"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 34,
+    "fields": {
+        "streetname": "H\u00e6kmosen",
+        "housenumber": "10A",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Herlev",
+        "zipcode": "2730",
+        "region": "Region Hovedstaden",
+        "municipality": "Herlev",
+        "longitude": "12.401336",
+        "latitude": "55.752090",
+        "dawa_id": "0a3f50a4-e8ed-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 35,
+    "fields": {
+        "streetname": "H\u00f8rk\u00e6r",
+        "housenumber": "18",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "Herlev",
+        "zipcode": "2730",
+        "region": "Region Hovedstaden",
+        "municipality": "Herlev",
+        "longitude": "12.435976",
+        "latitude": "55.719018",
+        "dawa_id": "2c0dc88c-aee3-4dc4-8f07-0823f7a48e4c"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 36,
+    "fields": {
+        "streetname": "Baneg\u00e5rdspladsen",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Ballerup",
+        "zipcode": "2750",
+        "region": "Region Hovedstaden",
+        "municipality": "Ballerup",
+        "longitude": "12.359703",
+        "latitude": "55.729702",
+        "dawa_id": "99b29a62-01fd-40be-b5fe-8bfc4be35e83"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 37,
+    "fields": {
+        "streetname": "Flodvej",
+        "housenumber": "68",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sm\u00f8rum",
+        "zipcode": "2765",
+        "region": "Region Hovedstaden",
+        "municipality": "Egedal",
+        "longitude": "12.308092",
+        "latitude": "55.731569",
+        "dawa_id": "0a3f50a5-fdb3-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 38,
+    "fields": {
+        "streetname": "Kamillevej",
+        "housenumber": "10",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kastrup",
+        "zipcode": "2770",
+        "region": "Region Hovedstaden",
+        "municipality": "T\u00e5rnby",
+        "longitude": "12.622694",
+        "latitude": "55.632310",
+        "dawa_id": "ae451a36-bcd5-4093-b3a2-be380861ae67"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 39,
+    "fields": {
+        "streetname": "Halvejen",
+        "housenumber": "3",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "Drag\u00f8r",
+        "zipcode": "2791",
+        "region": "Region Hovedstaden",
+        "municipality": "Drag\u00f8r",
+        "longitude": "12.639184",
+        "latitude": "55.594190",
+        "dawa_id": "0a3f50a3-85e4-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 40,
+    "fields": {
+        "streetname": "Kanalvej",
+        "housenumber": "7",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kongens Lyngby",
+        "zipcode": "2800",
+        "region": "Region Hovedstaden",
+        "municipality": "Lyngby-Taarb\u00e6k",
+        "longitude": "12.508489",
+        "latitude": "55.772879",
+        "dawa_id": "7e789945-2b85-485a-80a8-47365b063d9d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 41,
+    "fields": {
+        "streetname": "N\u00f8rgaardsvej",
+        "housenumber": "30",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kongens Lyngby",
+        "zipcode": "2800",
+        "region": "Region Hovedstaden",
+        "municipality": "Lyngby-Taarb\u00e6k",
+        "longitude": "12.511735",
+        "latitude": "55.770179",
+        "dawa_id": "87cfaa27-fff8-4806-b7ef-b28281842000"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 42,
+    "fields": {
+        "streetname": "Ilbjerg Alle",
+        "housenumber": "25",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "S\u00f8borg",
+        "zipcode": "2860",
+        "region": "Region Hovedstaden",
+        "municipality": "Gladsaxe",
+        "longitude": "12.469245",
+        "latitude": "55.723834",
+        "dawa_id": "0a3f50a4-5648-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 43,
+    "fields": {
+        "streetname": "S\u00f8borg Hovedgade",
+        "housenumber": "220",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "S\u00f8borg",
+        "zipcode": "2860",
+        "region": "Region Hovedstaden",
+        "municipality": "Gladsaxe",
+        "longitude": "12.498156",
+        "latitude": "55.742390",
+        "dawa_id": "d33ba105-d9ad-455d-abd7-270e9341827e"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 44,
+    "fields": {
+        "streetname": "Ahlmanns Alle",
+        "housenumber": "6",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hellerup",
+        "zipcode": "2900",
+        "region": "Region Hovedstaden",
+        "municipality": "Gentofte",
+        "longitude": "12.573496",
+        "latitude": "55.737457",
+        "dawa_id": "0a3f50a3-99ec-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 45,
+    "fields": {
+        "streetname": "Bibliotekstorvet",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "H\u00f8rsholm",
+        "zipcode": "2970",
+        "region": "Region Hovedstaden",
+        "municipality": "H\u00f8rsholm",
+        "longitude": "12.497354",
+        "latitude": "55.880689",
+        "dawa_id": "0a3f50aa-01cf-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 46,
+    "fields": {
+        "streetname": "Allegade",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Helsing\u00f8r",
+        "zipcode": "3000",
+        "region": "Region Hovedstaden",
+        "municipality": "Helsing\u00f8r",
+        "longitude": "12.614778",
+        "latitude": "56.037929",
+        "dawa_id": "2002798e-0773-4655-bd8e-bb497c8adb09"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 47,
+    "fields": {
+        "streetname": "Skolegade",
+        "housenumber": "43",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Helsinge",
+        "zipcode": "3200",
+        "region": "Region Hovedstaden",
+        "municipality": "Gribskov",
+        "longitude": "12.192332",
+        "latitude": "56.026628",
+        "dawa_id": "812f24df-18f9-46ed-af1d-55db48cd3074"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 48,
+    "fields": {
+        "streetname": "Skovensvej",
+        "housenumber": "4",
+        "floor": "2.",
+        "door": "",
+        "placename": null,
+        "city": "Aller\u00f8d",
+        "zipcode": "3450",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 49,
+    "fields": {
+        "streetname": "Stationsvej",
+        "housenumber": "38",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Birker\u00f8d",
+        "zipcode": "3460",
+        "region": "Region Hovedstaden",
+        "municipality": "Rudersdal",
+        "longitude": "12.427007",
+        "latitude": "55.840292",
+        "dawa_id": "d07007eb-10b5-438c-bfd3-759a088d3d3a"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 50,
+    "fields": {
+        "streetname": "Ryetvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "V\u00e6rl\u00f8se",
+        "zipcode": "3500",
+        "region": "Region Hovedstaden",
+        "municipality": "Fures\u00f8",
+        "longitude": "12.369590",
+        "latitude": "55.786071",
+        "dawa_id": "0a3f50a7-a4f8-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 51,
+    "fields": {
+        "streetname": "Stavnsholtvej",
+        "housenumber": "3",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Farum",
+        "zipcode": "3520",
+        "region": "Region Hovedstaden",
+        "municipality": "Fures\u00f8",
+        "longitude": "12.377167",
+        "latitude": "55.813734",
+        "dawa_id": "fa9ca4e0-e9fb-46d8-b04b-fd63ef62d752"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 52,
+    "fields": {
+        "streetname": "Jernbanegade",
+        "housenumber": "24",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederikssund",
+        "zipcode": "3600",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederikssund",
+        "longitude": "12.063888",
+        "latitude": "55.837983",
+        "dawa_id": "0a3f50a8-587f-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 53,
+    "fields": {
+        "streetname": "Vibeg\u00e5rdsvej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8nne",
+        "zipcode": "3700",
+        "region": "Region Hovedstaden",
+        "municipality": "Bornholm",
+        "longitude": "14.730508",
+        "latitude": "55.090967",
+        "dawa_id": "0a3f50b2-38ef-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 54,
+    "fields": {
+        "streetname": "Vibeg\u00e5rdsvej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8nne",
+        "zipcode": "3700",
+        "region": "Region Hovedstaden",
+        "municipality": "Bornholm",
+        "longitude": "14.730508",
+        "latitude": "55.090967",
+        "dawa_id": "0a3f50b2-38ef-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 55,
+    "fields": {
+        "streetname": "Havnen",
+        "housenumber": "7",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Nex\u00f8",
+        "zipcode": "3730",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 56,
+    "fields": {
+        "streetname": "Magleg\u00e5rdsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Roskilde",
+        "zipcode": "4000",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Roskilde",
+        "longitude": "12.078656",
+        "latitude": "55.630773",
+        "dawa_id": "0a3f50ac-035f-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 57,
+    "fields": {
+        "streetname": "Skolevej",
+        "housenumber": "1C",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sor\u00f8",
+        "zipcode": "4180",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Sor\u00f8",
+        "longitude": "11.572907",
+        "latitude": "55.417278",
+        "dawa_id": "0a3f50ae-e7d0-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 58,
+    "fields": {
+        "streetname": "Skolegade",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kors\u00f8r",
+        "zipcode": "4220",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Slagelse",
+        "longitude": "11.133425",
+        "latitude": "55.339357",
+        "dawa_id": "9592dfca-ad2b-4cb9-9e71-696158e6bb57"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 59,
+    "fields": {
+        "streetname": "Nygade",
+        "housenumber": "9-13",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Holb\u00e6k",
+        "zipcode": "4300",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 60,
+    "fields": {
+        "streetname": "\u00d8lbycenter",
+        "housenumber": "53",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8ge",
+        "zipcode": "4600",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "K\u00f8ge",
+        "longitude": "12.176490",
+        "latitude": "55.480359",
+        "dawa_id": "5c4466d2-c6de-41f2-ba34-c0b5d26f9347"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 61,
+    "fields": {
+        "streetname": "\u00d8lbycenter",
+        "housenumber": "50",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8ge",
+        "zipcode": "4600",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "K\u00f8ge",
+        "longitude": "12.176682",
+        "latitude": "55.480184",
+        "dawa_id": "9f5dd3dc-c959-4a6b-b782-391b4758dd54"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 62,
+    "fields": {
+        "streetname": "Jagtvej",
+        "housenumber": "2",
+        "floor": "",
+        "door": "G",
+        "placename": null,
+        "city": "N\u00e6stved",
+        "zipcode": "4700",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 63,
+    "fields": {
+        "streetname": "Sydhavnsvej",
+        "housenumber": "6",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Vordingborg",
+        "zipcode": "4760",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Vordingborg",
+        "longitude": "11.892036",
+        "latitude": "54.997280",
+        "dawa_id": "9fa33af4-6db1-4680-9718-6993dbe77ee3"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 64,
+    "fields": {
+        "streetname": "Birkev\u00e6nget",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Stege",
+        "zipcode": "4780",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Vordingborg",
+        "longitude": "12.279902",
+        "latitude": "54.994514",
+        "dawa_id": "0a3f50af-db60-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 65,
+    "fields": {
+        "streetname": "Haubergsvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odense C",
+        "zipcode": "5000",
+        "region": "Region Syddanmark",
+        "municipality": "Odense",
+        "longitude": "10.388396",
+        "latitude": "55.406207",
+        "dawa_id": "e9006705-4dda-4c43-be89-0693ddce55f4"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 66,
+    "fields": {
+        "streetname": "Munkebjergvej",
+        "housenumber": "130",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odense M",
+        "zipcode": "5230",
+        "region": "Region Syddanmark",
+        "municipality": "Odense",
+        "longitude": "10.408513",
+        "latitude": "55.380759",
+        "dawa_id": "1fceed77-e3be-44db-83f1-a5d754cc60f4"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 67,
+    "fields": {
+        "streetname": "Vollsmose All\u00e9",
+        "housenumber": "10",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odense N\u00d8",
+        "zipcode": "5240",
+        "region": "Region Syddanmark",
+        "municipality": "Odense",
+        "longitude": "10.440191",
+        "latitude": "55.406403",
+        "dawa_id": "b418e07b-b004-4b88-884e-2e4835ebe784"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 68,
+    "fields": {
+        "streetname": "\u00d8stre Hougvej",
+        "housenumber": "97",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Middelfart",
+        "zipcode": "5500",
+        "region": "Region Syddanmark",
+        "municipality": "Middelfart",
+        "longitude": "9.738697",
+        "latitude": "55.494350",
+        "dawa_id": "6a60cc3d-387e-4fd0-91e7-95cf89543d9a"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 69,
+    "fields": {
+        "streetname": "Ringvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Nyborg",
+        "zipcode": "5800",
+        "region": "Region Syddanmark",
+        "municipality": "Nyborg",
+        "longitude": "10.779568",
+        "latitude": "55.321781",
+        "dawa_id": "0a3f50b3-65ce-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 70,
+    "fields": {
+        "streetname": "Korsvejen",
+        "housenumber": "9",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Stryn\u00f8",
+        "zipcode": "5943",
+        "region": "Region Syddanmark",
+        "municipality": "Langeland",
+        "longitude": "10.596749",
+        "latitude": "54.912266",
+        "dawa_id": "0a3f50b5-4457-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 71,
+    "fields": {
+        "streetname": "Slotss\u00f8vejen",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kolding",
+        "zipcode": "6000",
+        "region": "Region Syddanmark",
+        "municipality": "Kolding",
+        "longitude": "9.480164",
+        "latitude": "55.491429",
+        "dawa_id": "0a3f50bc-4138-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 72,
+    "fields": {
+        "streetname": "Chr. X's vej",
+        "housenumber": "39",
+        "floor": "Stuen",
+        "door": "",
+        "placename": null,
+        "city": "Haderslev",
+        "zipcode": "6100",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 73,
+    "fields": {
+        "streetname": "Lindbjerg",
+        "housenumber": "82",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aabenraa",
+        "zipcode": "6200",
+        "region": "Region Syddanmark",
+        "municipality": "Aabenraa",
+        "longitude": "9.427857",
+        "latitude": "55.060338",
+        "dawa_id": "0a3f50b8-3d95-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 74,
+    "fields": {
+        "streetname": "Martin Hammerichsvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "T\u00f8nder",
+        "zipcode": "6270",
+        "region": "Region Syddanmark",
+        "municipality": "T\u00f8nder",
+        "longitude": "8.856126",
+        "latitude": "54.941246",
+        "dawa_id": "69e5a326-09eb-4356-a2ae-7a3a63cca19d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 75,
+    "fields": {
+        "streetname": "Grundtvigs Alle",
+        "housenumber": "100",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "S\u00f8nderborg",
+        "zipcode": "6400",
+        "region": "Region Syddanmark",
+        "municipality": "S\u00f8nderborg",
+        "longitude": "9.811536",
+        "latitude": "54.905594",
+        "dawa_id": "68ca555d-ea42-4e03-8969-dff62c691a63"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 76,
+    "fields": {
+        "streetname": "Kastanie Alle",
+        "housenumber": "51",
+        "floor": "2",
+        "door": "H",
+        "placename": null,
+        "city": "Lunderskov",
+        "zipcode": "6640",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 77,
+    "fields": {
+        "streetname": "Spangsbjerg Kirkevej",
+        "housenumber": "103",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Esbjerg",
+        "zipcode": "6700",
+        "region": "Region Syddanmark",
+        "municipality": "Esbjerg",
+        "longitude": "8.446724",
+        "latitude": "55.488420",
+        "dawa_id": "df96b7fa-c41e-410b-aaff-3ad157cbc729"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 78,
+    "fields": {
+        "streetname": "Prinsessegade",
+        "housenumber": "27",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Fredericia",
+        "zipcode": "7000",
+        "region": "Region Syddanmark",
+        "municipality": "Fredericia",
+        "longitude": "9.757885",
+        "latitude": "55.566859",
+        "dawa_id": "67777d2a-6ed1-4091-9496-740b3625801f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 79,
+    "fields": {
+        "streetname": "Spinderigade",
+        "housenumber": "24",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Vejle",
+        "zipcode": "7100",
+        "region": "Region Syddanmark",
+        "municipality": "Vejle",
+        "longitude": "9.529304",
+        "latitude": "55.713425",
+        "dawa_id": "a5be4e3e-60d5-4feb-9eae-0ad7335c5968"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 80,
+    "fields": {
+        "streetname": "BillundSkolen K\u00e6rvej",
+        "housenumber": "503",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Billund",
+        "zipcode": "7190",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 81,
+    "fields": {
+        "streetname": "Borupvej",
+        "housenumber": "16",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Brande",
+        "zipcode": "7330",
+        "region": "Region Midtjylland",
+        "municipality": "Ikast-Brande",
+        "longitude": "9.122486",
+        "latitude": "55.955817",
+        "dawa_id": "374230b7-1dfd-51c5-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 82,
+    "fields": {
+        "streetname": "Vestergade",
+        "housenumber": "131",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Herning",
+        "zipcode": "7400",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 83,
+    "fields": {
+        "streetname": "D\u00f8esvej",
+        "housenumber": "76",
+        "floor": "",
+        "door": "A1",
+        "placename": null,
+        "city": "Holstebro",
+        "zipcode": "7500",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 84,
+    "fields": {
+        "streetname": "Jyllandsgade",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Struer",
+        "zipcode": "7600",
+        "region": "Region Midtjylland",
+        "municipality": "Struer",
+        "longitude": "8.602731",
+        "latitude": "56.490460",
+        "dawa_id": "0a3f50be-d88a-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 85,
+    "fields": {
+        "streetname": "\u00d8stergade",
+        "housenumber": "25",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Skive",
+        "zipcode": "7800",
+        "region": "Region Midtjylland",
+        "municipality": "Skive",
+        "longitude": "9.029583",
+        "latitude": "56.566773",
+        "dawa_id": "1cdd6c9f-9fb1-44e8-a336-629378a62e4b"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 86,
+    "fields": {
+        "streetname": "Valdemarsgade",
+        "housenumber": "38",
+        "floor": "1",
+        "door": null,
+        "placename": null,
+        "city": "Aarhus C",
+        "zipcode": "8000",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.196800",
+        "latitude": "56.150217",
+        "dawa_id": "0a3f50c4-9965-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 87,
+    "fields": {
+        "streetname": "Hack Kampmanns Plads",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aarhus C",
+        "zipcode": "8000",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.213776",
+        "latitude": "56.153436",
+        "dawa_id": "c98774c5-c26c-44c0-a98e-048312aba1b1"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 88,
+    "fields": {
+        "streetname": "Paludan-M\u00fcllers Vej",
+        "housenumber": "48",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aarhus N",
+        "zipcode": "8200",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.183135",
+        "latitude": "56.173485",
+        "dawa_id": "0a3f50c3-d9f1-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 89,
+    "fields": {
+        "streetname": "Jens Chr. Skous Vej.",
+        "housenumber": "1483",
+        "floor": "2",
+        "door": "Varierer",
+        "placename": null,
+        "city": "Aarhus N",
+        "zipcode": "8200",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 90,
+    "fields": {
+        "streetname": "Jens Chr. Skous Vej",
+        "housenumber": "4",
+        "floor": "4",
+        "door": null,
+        "placename": null,
+        "city": "Aarhus C",
+        "zipcode": "8000",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.205632",
+        "latitude": "56.172618",
+        "dawa_id": "6cdd6941-0997-4347-ab7d-a0c82dfb4c70"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 91,
+    "fields": {
+        "streetname": "\u00c5bogade",
+        "housenumber": "34",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aarhus N",
+        "zipcode": "8200",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.188322",
+        "latitude": "56.172111",
+        "dawa_id": "0a3f50c4-c31e-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 92,
+    "fields": {
+        "streetname": "Rosensgade",
+        "housenumber": "83",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odder",
+        "zipcode": "8300",
+        "region": "Region Midtjylland",
+        "municipality": "Odder",
+        "longitude": "10.139906",
+        "latitude": "55.970381",
+        "dawa_id": "f188135f-1acd-4579-a174-a9816c80456f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 93,
+    "fields": {
+        "streetname": "K\u00e6rg\u00e5rdsvej",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Solbjerg",
+        "zipcode": "8355",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.084158",
+        "latitude": "56.042147",
+        "dawa_id": "bbf7dca9-1e98-440c-bb6e-e5dba5727e0d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 94,
+    "fields": {
+        "streetname": "Evald Tangs Alle",
+        "housenumber": "45",
+        "floor": "",
+        "door": "M\u00f8derum 2",
+        "placename": null,
+        "city": "Hadsten",
+        "zipcode": "8370",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 95,
+    "fields": {
+        "streetname": "Skovvej",
+        "housenumber": "18",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hinnerup",
+        "zipcode": "8382",
+        "region": "Region Midtjylland",
+        "municipality": "Favrskov",
+        "longitude": "10.059360",
+        "latitude": "56.263684",
+        "dawa_id": "f1f0354b-420b-421f-90ad-bfdd263c7cf2"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 96,
+    "fields": {
+        "streetname": "Sigma",
+        "housenumber": "3",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hinnerup",
+        "zipcode": "8382",
+        "region": "Region Midtjylland",
+        "municipality": "Favrskov",
+        "longitude": "10.106680",
+        "latitude": "56.232900",
+        "dawa_id": "64ad9bbf-c99e-4a36-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 97,
+    "fields": {
+        "streetname": "Dalvej",
+        "housenumber": "1",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Hammel",
+        "zipcode": "8450",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 98,
+    "fields": {
+        "streetname": "Skr\u00e5vejen",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Galten",
+        "zipcode": "8464",
+        "region": "Region Midtjylland",
+        "municipality": "Skanderborg",
+        "longitude": "9.941894",
+        "latitude": "56.155446",
+        "dawa_id": "5030d13a-239a-418e-8668-bf156855e69f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 99,
+    "fields": {
+        "streetname": "N.P. Jossiasensvej",
+        "housenumber": "44E",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Grenaa",
+        "zipcode": "8500",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 100,
+    "fields": {
+        "streetname": "Rosenbakken",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sk\u00f8dstrup",
+        "zipcode": "8541",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.308426",
+        "latitude": "56.271534",
+        "dawa_id": "0fe57e12-55f2-4de8-8713-758d728d43a3"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 101,
+    "fields": {
+        "streetname": "H\u00f8jbovej",
+        "housenumber": "1F",
+        "floor": "st",
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.534755",
+        "latitude": "56.181151",
+        "dawa_id": "9aa1c516-700c-4bb3-ba0f-9ba476879ef5"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 102,
+    "fields": {
+        "streetname": "Hejrevej",
+        "housenumber": "25",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.564943",
+        "latitude": "56.172598",
+        "dawa_id": "2a273112-e031-4237-ad8f-a642418b90ce"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 103,
+    "fields": {
+        "streetname": "Rolighedsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.535438",
+        "latitude": "56.161766",
+        "dawa_id": "e7d6ec12-f9df-4ab8-bc18-011516e36cf3"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 104,
+    "fields": {
+        "streetname": "Grauballe Guden\u00e5vej",
+        "housenumber": "21",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.633708",
+        "latitude": "56.226942",
+        "dawa_id": "0a3f50bf-b431-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 105,
+    "fields": {
+        "streetname": "H\u00f8jg\u00e5rdsvej",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.700018",
+        "latitude": "56.187784",
+        "dawa_id": "0a3f50bf-b5d3-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 106,
+    "fields": {
+        "streetname": "Bindslevs Plads",
+        "housenumber": "7",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.547521",
+        "latitude": "56.165736",
+        "dawa_id": "9bcec96d-061e-4b75-87c5-5f454a2ec0c1"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 107,
+    "fields": {
+        "streetname": "Eidervej",
+        "housenumber": "50",
+        "floor": "Blok E",
+        "door": "E1",
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 108,
+    "fields": {
+        "streetname": "Balle Kirkevej",
+        "housenumber": "120",
+        "floor": "K\u00e6lderen",
+        "door": "Balle Torv",
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 109,
+    "fields": {
+        "streetname": "Harsnablundvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.609060",
+        "latitude": "56.192539",
+        "dawa_id": "c0e25c8e-133a-4b4d-893d-dd010248bfe0"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 110,
+    "fields": {
+        "streetname": "Tytteb\u00e6rvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.618768",
+        "latitude": "56.136897",
+        "dawa_id": "c633fbfa-c56a-4ca0-976f-6ee7748f7285"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 111,
+    "fields": {
+        "streetname": "Tinghusvej",
+        "housenumber": "16",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kjellerup",
+        "zipcode": "8620",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.429005",
+        "latitude": "56.287352",
+        "dawa_id": "0a3f50c5-32ec-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 112,
+    "fields": {
+        "streetname": "M\u00f8llevej",
+        "housenumber": "7",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Kjellerup",
+        "zipcode": "8620",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.331895",
+        "latitude": "56.284786",
+        "dawa_id": "ad2f125a-68f4-4c94-b514-0bda7b715292"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 113,
+    "fields": {
+        "streetname": "Teglgade",
+        "housenumber": "20",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Ans By",
+        "zipcode": "8643",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 114,
+    "fields": {
+        "streetname": "Frisholmvej",
+        "housenumber": "20",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Them",
+        "zipcode": "8650",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 115,
+    "fields": {
+        "streetname": "Finlandsvej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Skanderborg",
+        "zipcode": "8660",
+        "region": "Region Midtjylland",
+        "municipality": "Skanderborg",
+        "longitude": "9.949907",
+        "latitude": "56.052332",
+        "dawa_id": "32b3bec8-7b54-4adc-a3f4-51354757309c"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 116,
+    "fields": {
+        "streetname": "Stadionsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Horsens",
+        "zipcode": "8700",
+        "region": "Region Midtjylland",
+        "municipality": "Horsens",
+        "longitude": "9.855812",
+        "latitude": "55.868407",
+        "dawa_id": "0a3f50bb-8c34-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 117,
+    "fields": {
+        "streetname": "Vesterbrogade",
+        "housenumber": "15",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Viborg",
+        "zipcode": "8800",
+        "region": "Region Midtjylland",
+        "municipality": "Viborg",
+        "longitude": "9.398714",
+        "latitude": "56.449798",
+        "dawa_id": "3e96328a-1d40-4686-adf3-3d6c93e4e09f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 118,
+    "fields": {
+        "streetname": "Hovedgaden",
+        "housenumber": "60",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Ulstrup",
+        "zipcode": "8860",
+        "region": "Region Midtjylland",
+        "municipality": "Favrskov",
+        "longitude": "9.788297",
+        "latitude": "56.387289",
+        "dawa_id": "74fe438b-f457-461d-a803-897051b53d31"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 119,
+    "fields": {
+        "streetname": "Thors\u00f8vej",
+        "housenumber": "13",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "F\u00e5rvang",
+        "zipcode": "8882",
+        "region": "Region Midtjylland",
+        "municipality": "Silkeborg",
+        "longitude": "9.730775",
+        "latitude": "56.273880",
+        "dawa_id": "0a3f50bf-beb1-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 120,
+    "fields": {
+        "streetname": "Stemannsgade",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Randers C",
+        "zipcode": "8900",
+        "region": "Region Midtjylland",
+        "municipality": "Randers",
+        "longitude": "10.040943",
+        "latitude": "56.460458",
+        "dawa_id": "6b8715bd-3423-4e53-92ab-253ac9fa1a56"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 121,
+    "fields": {
+        "streetname": "Frederik Bajers Vej",
+        "housenumber": "7A",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Aalborg",
+        "zipcode": "9200",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 122,
+    "fields": {
+        "streetname": "Fredrik Bajers Vej",
+        "housenumber": "7A",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aalborg \u00d8st",
+        "zipcode": "9220",
+        "region": "Region Nordjylland",
+        "municipality": "Aalborg",
+        "longitude": "9.986823",
+        "latitude": "57.013903",
+        "dawa_id": "e63fb454-06fe-4412-a3cc-a3285d0afd58"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 123,
+    "fields": {
+        "streetname": "Sebbersundvej",
+        "housenumber": "2A",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aalborg \u00d8st",
+        "zipcode": "9220",
+        "region": "Region Nordjylland",
+        "municipality": "Aalborg",
+        "longitude": "10.000404",
+        "latitude": "57.027712",
+        "dawa_id": "8e292ba7-290d-4947-9ba4-6edfd68ba12b"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 124,
+    "fields": {
+        "streetname": "Wieg\u00e5rdsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hobro",
+        "zipcode": "9500",
+        "region": "Region Nordjylland",
+        "municipality": "Mariagerfjord",
+        "longitude": "9.815689",
+        "latitude": "56.651209",
+        "dawa_id": "869e73e3-343d-421a-ad7c-f487031de4a7"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 125,
+    "fields": {
+        "streetname": "\u00d8stre Alle",
+        "housenumber": "6",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "St\u00f8vring",
+        "zipcode": "9530",
+        "region": "Region Nordjylland",
+        "municipality": "Rebild",
+        "longitude": "9.838605",
+        "latitude": "56.880154",
+        "dawa_id": "0a3f50c9-71a8-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 126,
+    "fields": {
+        "streetname": "Industrivej",
+        "housenumber": "3",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Fjerritslev",
+        "zipcode": "9690",
+        "region": "Region Nordjylland",
+        "municipality": "Jammerbugt",
+        "longitude": "9.251756",
+        "latitude": "57.087429",
+        "dawa_id": "9968c594-6aff-4232-84d8-5efff7b3ffd0"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 127,
+    "fields": {
+        "streetname": "\u00d8stergade",
+        "housenumber": "30",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hj\u00f8rring",
+        "zipcode": "9800",
+        "region": "Region Nordjylland",
+        "municipality": "Hj\u00f8rring",
+        "longitude": "9.991180",
+        "latitude": "57.457965",
+        "dawa_id": "d18f2232-0b86-4a6a-9982-8af0fa424392"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 128,
+    "fields": {
+        "streetname": "Lindbjerg",
+        "housenumber": "82",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Aabenraa",
+        "zipcode": "6200",
+        "region": "Region Syddanmark",
+        "municipality": "Aabenraa",
+        "longitude": "9.427857",
+        "latitude": "55.060338",
+        "dawa_id": "0a3f50b8-3d95-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 129,
+    "fields": {
+        "streetname": "James Tobins Alle",
+        "housenumber": "1",
+        "floor": "1",
+        "door": "tv",
+        "placename": null,
+        "city": "Aalborg \u00d8st",
+        "zipcode": "9220",
+        "region": "Region Nordjylland",
+        "municipality": "Aalborg",
+        "longitude": "9.967867",
+        "latitude": "57.012749",
+        "dawa_id": "374230b7-2019-51c5-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 130,
+    "fields": {
+        "streetname": "Tr\u00f8jborgvej",
+        "housenumber": "10",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "Aarhus N",
+        "zipcode": "8200",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.216346",
+        "latitude": "56.169309",
+        "dawa_id": "0a3f50c4-90cd-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 131,
+    "fields": {
+        "streetname": "Skovensvej",
+        "housenumber": "4",
+        "floor": "2.",
+        "door": "",
+        "placename": null,
+        "city": "Aller\u00f8d",
+        "zipcode": "3450",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 132,
+    "fields": {
+        "streetname": "Baneg\u00e5rdspladsen",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Ballerup",
+        "zipcode": "2750",
+        "region": "Region Hovedstaden",
+        "municipality": "Ballerup",
+        "longitude": "12.359703",
+        "latitude": "55.729702",
+        "dawa_id": "99b29a62-01fd-40be-b5fe-8bfc4be35e83"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 133,
+    "fields": {
+        "streetname": "Lillevang",
+        "housenumber": "57",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Billund",
+        "zipcode": "7190",
+        "region": "Region Syddanmark",
+        "municipality": "Billund",
+        "longitude": "9.119012",
+        "latitude": "55.711766",
+        "dawa_id": "0a3f50b8-5e80-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 134,
+    "fields": {
+        "streetname": "Stationsvej",
+        "housenumber": "38",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Birker\u00f8d",
+        "zipcode": "3460",
+        "region": "Region Hovedstaden",
+        "municipality": "Rudersdal",
+        "longitude": "12.427007",
+        "latitude": "55.840292",
+        "dawa_id": "d07007eb-10b5-438c-bfd3-759a088d3d3a"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 135,
+    "fields": {
+        "streetname": "Vibeg\u00e5rdsvej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8nne",
+        "zipcode": "3700",
+        "region": "Region Hovedstaden",
+        "municipality": "Bornholm",
+        "longitude": "14.730508",
+        "latitude": "55.090967",
+        "dawa_id": "0a3f50b2-38ef-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 136,
+    "fields": {
+        "streetname": "Seebladsgade",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odense C",
+        "zipcode": "5000",
+        "region": "Region Syddanmark",
+        "municipality": "Odense",
+        "longitude": "10.379369",
+        "latitude": "55.403451",
+        "dawa_id": "80b4df27-5db5-4e0b-9a81-72a4134fb613"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 137,
+    "fields": {
+        "streetname": "N.P. Jossiasensvej",
+        "housenumber": "44E",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Grenaa",
+        "zipcode": "8500",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 138,
+    "fields": {
+        "streetname": "Flodvej",
+        "housenumber": "68",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sm\u00f8rum",
+        "zipcode": "2765",
+        "region": "Region Hovedstaden",
+        "municipality": "Egedal",
+        "longitude": "12.308092",
+        "latitude": "55.731569",
+        "dawa_id": "0a3f50a5-fdb3-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 139,
+    "fields": {
+        "streetname": "Spangsbjerg Kirkevej",
+        "housenumber": "103",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Esbjerg",
+        "zipcode": "6700",
+        "region": "Region Syddanmark",
+        "municipality": "Esbjerg",
+        "longitude": "8.446724",
+        "latitude": "55.488420",
+        "dawa_id": "df96b7fa-c41e-410b-aaff-3ad157cbc729"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 140,
+    "fields": {
+        "streetname": "Kildevangen",
+        "housenumber": "73",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hinnerup",
+        "zipcode": "8382",
+        "region": "Region Midtjylland",
+        "municipality": "Favrskov",
+        "longitude": "10.067232",
+        "latitude": "56.277921",
+        "dawa_id": "0a3f50c0-1df9-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 141,
+    "fields": {
+        "streetname": "P.G. Ramms Alle",
+        "housenumber": "26",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederiksberg",
+        "zipcode": "2000",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederiksberg",
+        "longitude": "12.508819",
+        "latitude": "55.680520",
+        "dawa_id": "0a3f50a2-b144-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 142,
+    "fields": {
+        "streetname": "Jernbanegade",
+        "housenumber": "24",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Frederikssund",
+        "zipcode": "3600",
+        "region": "Region Hovedstaden",
+        "municipality": "Frederikssund",
+        "longitude": "12.063888",
+        "latitude": "55.837983",
+        "dawa_id": "0a3f50a8-587f-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 143,
+    "fields": {
+        "streetname": "Rytterkrogen",
+        "housenumber": "11",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Farum",
+        "zipcode": "3520",
+        "region": "Region Hovedstaden",
+        "municipality": "Fures\u00f8",
+        "longitude": "12.368743",
+        "latitude": "55.815791",
+        "dawa_id": "0a3f50a8-1e7d-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 144,
+    "fields": {
+        "streetname": "Ahlmanns Alle",
+        "housenumber": "6",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hellerup",
+        "zipcode": "2900",
+        "region": "Region Hovedstaden",
+        "municipality": "Gentofte",
+        "longitude": "12.573496",
+        "latitude": "55.737457",
+        "dawa_id": "0a3f50a3-99ec-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 145,
+    "fields": {
+        "streetname": "Buddinge Hovedgade",
+        "housenumber": "146",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "S\u00f8borg",
+        "zipcode": "2860",
+        "region": "Region Hovedstaden",
+        "municipality": "Gladsaxe",
+        "longitude": "12.481939",
+        "latitude": "55.746917",
+        "dawa_id": "0a3f50a4-355b-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 146,
+    "fields": {
+        "streetname": "Kildev\u00e6ldets Alle",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Glostrup",
+        "zipcode": "2600",
+        "region": "Region Hovedstaden",
+        "municipality": "Glostrup",
+        "longitude": "12.393874",
+        "latitude": "55.663650",
+        "dawa_id": "beb75784-f7d8-4120-a40b-71a2000367bf"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 147,
+    "fields": {
+        "streetname": "Chr. X\u2019s vej",
+        "housenumber": "39",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Haderslev",
+        "zipcode": "6100",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 149,
+    "fields": {
+        "streetname": "Allegade",
+        "housenumber": "2",
+        "floor": "1st",
+        "door": "",
+        "placename": null,
+        "city": "Helsing\u00f8r",
+        "zipcode": "3000",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 150,
+    "fields": {
+        "streetname": "\u00d8stergade",
+        "housenumber": "8",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Herning",
+        "zipcode": "7400",
+        "region": "Region Midtjylland",
+        "municipality": "Herning",
+        "longitude": "8.977131",
+        "latitude": "56.135943",
+        "dawa_id": "5ca55854-60bb-4003-84d8-bab64a3cdbab"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 151,
+    "fields": {
+        "streetname": "\u00d8stergade",
+        "housenumber": "30",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hj\u00f8rring",
+        "zipcode": "9800",
+        "region": "Region Nordjylland",
+        "municipality": "Hj\u00f8rring",
+        "longitude": "9.991180",
+        "latitude": "57.457965",
+        "dawa_id": "d18f2232-0b86-4a6a-9982-8af0fa424392"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 152,
+    "fields": {
+        "streetname": "Wieg\u00e5rdsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Hobro",
+        "zipcode": "9500",
+        "region": "Region Nordjylland",
+        "municipality": "Mariagerfjord",
+        "longitude": "9.815689",
+        "latitude": "56.651209",
+        "dawa_id": "869e73e3-343d-421a-ad7c-f487031de4a7"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 153,
+    "fields": {
+        "streetname": "D\u00f8esvej",
+        "housenumber": "76",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Holstebro",
+        "zipcode": "7500",
+        "region": "Region Midtjylland",
+        "municipality": "Holstebro",
+        "longitude": "8.599660",
+        "latitude": "56.373080",
+        "dawa_id": "bd975871-8f12-45b9-8551-994ed4726d8b"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 154,
+    "fields": {
+        "streetname": "Vibeholmsalle",
+        "housenumber": "7",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Horsens",
+        "zipcode": "8700",
+        "region": "Region Midtjylland",
+        "municipality": "Horsens",
+        "longitude": "9.828642",
+        "latitude": "55.845195",
+        "dawa_id": "0a3f50bb-a158-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 155,
+    "fields": {
+        "streetname": "Bibliotekstorvet",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "H\u00f8rsholm",
+        "zipcode": "2970",
+        "region": "Region Hovedstaden",
+        "municipality": "H\u00f8rsholm",
+        "longitude": "12.497354",
+        "latitude": "55.880689",
+        "dawa_id": "0a3f50aa-01cf-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 156,
+    "fields": {
+        "streetname": "Ish\u00f8j Store Torv",
+        "housenumber": "1",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Ish\u00f8j",
+        "zipcode": "2635",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 157,
+    "fields": {
+        "streetname": "Borups Alle",
+        "housenumber": "8",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Fjerritslev",
+        "zipcode": "9690",
+        "region": "Region Nordjylland",
+        "municipality": "Jammerbugt",
+        "longitude": "9.263728",
+        "latitude": "57.089674",
+        "dawa_id": "e530741d-ad33-48af-9ec2-35c1f40d7db6"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 158,
+    "fields": {
+        "streetname": "Gullandsgade",
+        "housenumber": "14",
+        "floor": "2",
+        "door": "tv",
+        "placename": null,
+        "city": "K\u00f8benhavn S",
+        "zipcode": "2300",
+        "region": "Region Hovedstaden",
+        "municipality": "K\u00f8benhavn",
+        "longitude": "12.599600",
+        "latitude": "55.657865",
+        "dawa_id": "0a3f509e-7329-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 159,
+    "fields": {
+        "streetname": "Storkebanken",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Herf\u00f8lge",
+        "zipcode": "4681",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "K\u00f8ge",
+        "longitude": "12.143513",
+        "latitude": "55.405728",
+        "dawa_id": "0a3f50ab-90dd-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 160,
+    "fields": {
+        "streetname": "\u00d8lbycenter",
+        "housenumber": "50",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "K\u00f8ge",
+        "zipcode": "4600",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "K\u00f8ge",
+        "longitude": "12.176682",
+        "latitude": "55.480184",
+        "dawa_id": "9f5dd3dc-c959-4a6b-b782-391b4758dd54"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 161,
+    "fields": {
+        "streetname": "Kastanie Alle",
+        "housenumber": "51",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Lunderskov",
+        "zipcode": "6640",
+        "region": "Region Syddanmark",
+        "municipality": "Kolding",
+        "longitude": "9.344195",
+        "latitude": "55.464252",
+        "dawa_id": "0a3f50bc-6189-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 162,
+    "fields": {
+        "streetname": "Reskavej",
+        "housenumber": "2",
+        "floor": "",
+        "door": "C",
+        "placename": null,
+        "city": "Kors\u00f8r",
+        "zipcode": "4220",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 163,
+    "fields": {
+        "streetname": "Prinsessegade",
+        "housenumber": "27",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Fredericia",
+        "zipcode": "7000",
+        "region": "Region Syddanmark",
+        "municipality": "Fredericia",
+        "longitude": "9.757885",
+        "latitude": "55.566859",
+        "dawa_id": "67777d2a-6ed1-4091-9496-740b3625801f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 164,
+    "fields": {
+        "streetname": "Kanalvej",
+        "housenumber": "7",
+        "floor": "1.",
+        "door": "",
+        "placename": null,
+        "city": "Lyngby",
+        "zipcode": "2800",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 165,
+    "fields": {
+        "streetname": "Jagtvej",
+        "housenumber": "2",
+        "floor": "",
+        "door": "G",
+        "placename": null,
+        "city": "N\u00e6stved",
+        "zipcode": "4700",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 166,
+    "fields": {
+        "streetname": "Ringvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Nyborg",
+        "zipcode": "5800",
+        "region": "Region Syddanmark",
+        "municipality": "Nyborg",
+        "longitude": "10.779568",
+        "latitude": "55.321781",
+        "dawa_id": "0a3f50b3-65ce-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 167,
+    "fields": {
+        "streetname": "R\u00f8rthvej",
+        "housenumber": "34",
+        "floor": "",
+        "door": "B",
+        "placename": null,
+        "city": "Odder",
+        "zipcode": "8300",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 168,
+    "fields": {
+        "streetname": "Munkebjergvej",
+        "housenumber": "130",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Odense M",
+        "zipcode": "5230",
+        "region": "Region Syddanmark",
+        "municipality": "Odense",
+        "longitude": "10.408513",
+        "latitude": "55.380759",
+        "dawa_id": "1fceed77-e3be-44db-83f1-a5d754cc60f4"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 169,
+    "fields": {
+        "streetname": "Stemannsgade",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Randers C",
+        "zipcode": "8900",
+        "region": "Region Midtjylland",
+        "municipality": "Randers",
+        "longitude": "10.040943",
+        "latitude": "56.460458",
+        "dawa_id": "6b8715bd-3423-4e53-92ab-253ac9fa1a56"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 170,
+    "fields": {
+        "streetname": "Vandv\u00e6rksvej",
+        "housenumber": "12",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8dovre",
+        "zipcode": "2610",
+        "region": "Region Hovedstaden",
+        "municipality": "R\u00f8dovre",
+        "longitude": "12.463781",
+        "latitude": "55.693818",
+        "dawa_id": "0a3f50a6-c01a-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 171,
+    "fields": {
+        "streetname": "Magleg\u00e5rdsvej",
+        "housenumber": "2",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Roskilde",
+        "zipcode": "4000",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Roskilde",
+        "longitude": "12.078656",
+        "latitude": "55.630773",
+        "dawa_id": "0a3f50ac-035f-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 172,
+    "fields": {
+        "streetname": "Bindslevs Plads",
+        "housenumber": "0",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Silkeborg",
+        "zipcode": "8600",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 173,
+    "fields": {
+        "streetname": "Finlandsvej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Skanderborg",
+        "zipcode": "8660",
+        "region": "Region Midtjylland",
+        "municipality": "Skanderborg",
+        "longitude": "9.949907",
+        "latitude": "56.052332",
+        "dawa_id": "32b3bec8-7b54-4adc-a3f4-51354757309c"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 174,
+    "fields": {
+        "streetname": "\u00d8stergade",
+        "housenumber": "25",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Skive",
+        "zipcode": "7800",
+        "region": "Region Midtjylland",
+        "municipality": "Skive",
+        "longitude": "9.029583",
+        "latitude": "56.566773",
+        "dawa_id": "1cdd6c9f-9fb1-44e8-a336-629378a62e4b"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 175,
+    "fields": {
+        "streetname": "Rosenbakken",
+        "housenumber": "4",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sk\u00f8dstrup",
+        "zipcode": "8541",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.308426",
+        "latitude": "56.271534",
+        "dawa_id": "0fe57e12-55f2-4de8-8713-758d728d43a3"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 176,
+    "fields": {
+        "streetname": "Christinedahlsvej",
+        "housenumber": "10",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Galten",
+        "zipcode": "8464",
+        "region": "Region Midtjylland",
+        "municipality": "Skanderborg",
+        "longitude": "9.942462",
+        "latitude": "56.159066",
+        "dawa_id": "0a3f50bf-9ef3-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 177,
+    "fields": {
+        "streetname": "Hasselvangen",
+        "housenumber": "241",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Solbjerg",
+        "zipcode": "8355",
+        "region": "Region Midtjylland",
+        "municipality": "Aarhus",
+        "longitude": "10.099328",
+        "latitude": "56.045607",
+        "dawa_id": "3e7c85ea-dc55-3e52-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 178,
+    "fields": {
+        "streetname": "Solr\u00f8d Center, Biblioteket",
+        "housenumber": "4",
+        "floor": "",
+        "door": "",
+        "placename": null,
+        "city": "Solr\u00f8d",
+        "zipcode": "2680",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 179,
+    "fields": {
+        "streetname": "Chr.Winthers Vej",
+        "housenumber": "8",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "S\u00f8nderborg",
+        "zipcode": "6400",
+        "region": "Region Syddanmark",
+        "municipality": "S\u00f8nderborg",
+        "longitude": "9.822445",
+        "latitude": "54.903923",
+        "dawa_id": "0a3f50b7-9d2f-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 180,
+    "fields": {
+        "streetname": "Haverupvej",
+        "housenumber": "19A",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Sor\u00f8",
+        "zipcode": "4180",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Sor\u00f8",
+        "longitude": "11.533715",
+        "latitude": "55.444134",
+        "dawa_id": "0a3f50ae-dbcc-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 181,
+    "fields": {
+        "streetname": "H\u00f8jdedraget",
+        "housenumber": "20",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "St\u00f8vring",
+        "zipcode": "9530",
+        "region": "Region Nordjylland",
+        "municipality": "Rebild",
+        "longitude": "9.830386",
+        "latitude": "56.878722",
+        "dawa_id": "0a3f50c9-65cb-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 182,
+    "fields": {
+        "streetname": "\u00d8lbyvej",
+        "housenumber": "22",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Struer",
+        "zipcode": "7600",
+        "region": "Region Midtjylland",
+        "municipality": "Struer",
+        "longitude": "8.580620",
+        "latitude": "56.491347",
+        "dawa_id": "0a3f50be-ef0e-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 183,
+    "fields": {
+        "streetname": "Korsvejen",
+        "housenumber": "9",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Stryn\u00f8",
+        "zipcode": "5943",
+        "region": "Region Syddanmark",
+        "municipality": "Langeland",
+        "longitude": "10.596749",
+        "latitude": "54.912266",
+        "dawa_id": "0a3f50b5-4457-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 184,
+    "fields": {
+        "streetname": "Martin Hammerichsvej",
+        "housenumber": "1",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "T\u00f8nder",
+        "zipcode": "6270",
+        "region": "Region Syddanmark",
+        "municipality": "T\u00f8nder",
+        "longitude": "8.856126",
+        "latitude": "54.941246",
+        "dawa_id": "69e5a326-09eb-4356-a2ae-7a3a63cca19d"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 185,
+    "fields": {
+        "streetname": "Svanholmvej",
+        "housenumber": "14",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Vallensb\u00e6k Strand",
+        "zipcode": "2665",
+        "region": "Region Hovedstaden",
+        "municipality": "Vallensb\u00e6k",
+        "longitude": "12.386436",
+        "latitude": "55.619910",
+        "dawa_id": "0a3f50a7-8c19-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 186,
+    "fields": {
+        "streetname": "Spinderigade",
+        "housenumber": "11",
+        "floor": "",
+        "door": "Indgang K",
+        "placename": null,
+        "city": "Vejle",
+        "zipcode": "7100",
+        "region": null,
+        "municipality": null,
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+},
+{
+    "model": "members.address",
+    "pk": 187,
+    "fields": {
+        "streetname": "Vesterbrogade",
+        "housenumber": "15",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Viborg",
+        "zipcode": "8800",
+        "region": "Region Midtjylland",
+        "municipality": "Viborg",
+        "longitude": "9.398714",
+        "latitude": "56.449798",
+        "dawa_id": "3e96328a-1d40-4686-adf3-3d6c93e4e09f"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 188,
+    "fields": {
+        "streetname": "Sydhavnsvej",
+        "housenumber": "6",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Vordingborg",
+        "zipcode": "4760",
+        "region": "Region Sj\u00e6lland",
+        "municipality": "Vordingborg",
+        "longitude": "11.892036",
+        "latitude": "54.997280",
+        "dawa_id": "9fa33af4-6db1-4680-9718-6993dbe77ee3"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 189,
+    "fields": {
+        "streetname": "Kanutskivej",
+        "housenumber": "5",
+        "floor": null,
+        "door": null,
+        "placename": null,
+        "city": "Helsinge",
+        "zipcode": "3200",
+        "region": "Region Hovedstaden",
+        "municipality": "Gribskov",
+        "longitude": "12.155710",
+        "latitude": "56.016228",
+        "dawa_id": "0a3f50a8-fc89-32b8-e044-0003ba298018"
+    }
+},
+{
+    "model": "members.address",
+    "pk": 190,
+    "fields": {
+        "streetname": "Egeg\u00e5rdsvej",
+        "housenumber": "79",
+        "floor": "2",
+        "door": null,
+        "placename": null,
+        "city": "R\u00f8dovre",
+        "zipcode": "2610",
+        "region": null,
+        "municipality": "R\u00f8dovre",
+        "longitude": null,
+        "latitude": null,
+        "dawa_id": ""
+    }
+}
+]
+git 

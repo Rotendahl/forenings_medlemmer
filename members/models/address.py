@@ -2,9 +2,17 @@ import requests
 
 from django.db import models
 from django.conf import settings
+from django.core.exceptions import ValidationError
 
 from .department import Department
 from .union import Union
+
+
+def _zip_code_validator(zipcode):
+    if len(zipcode) != 4:
+        raise ValidationError(f"ZipCode: {zipcode} length not equal to 4")
+    if not zipcode.isdigit(zipcode):
+        raise ValidationError(f"ZipCode: {zipcode} not numbers")
 
 
 class Address(models.Model):
@@ -19,7 +27,9 @@ class Address(models.Model):
     door = models.CharField("Dør", max_length=10, blank=True, null=True)
     placename = models.CharField("Stednavn", max_length=200, blank=True, null=True)
     city = models.CharField("By", max_length=200)
-    zipcode = models.CharField("Postnummer", max_length=4)
+    zipcode = models.CharField(
+        "Postnummer", max_length=4, validators=[_zip_code_validator]
+    )
     REGION_CHOICES = (
         ("Region Syddanmark", "Region Syddanmark"),
         ("Region Hovedstaden", "Region Hovedstaden"),

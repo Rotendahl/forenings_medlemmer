@@ -3,6 +3,8 @@
 from django.db import models
 import members.models.emailtemplate
 from django.utils import timezone, html
+from django.urls import reverse
+from django.utils.text import slugify
 
 
 class Department(models.Model):
@@ -28,7 +30,7 @@ class Department(models.Model):
     union = models.ForeignKey(
         "Union", verbose_name="Lokalforening", on_delete=models.PROTECT,
     )
-    onMap = models.BooleanField("Skal den være på kortet?", default=True)
+    slug = models.SlugField(unique=False, default="temp")
 
     def no_members(self):
         return self.member_set.count()
@@ -37,6 +39,13 @@ class Department(models.Model):
 
     def __str__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.name)
+        super(Department, self).save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return self.slug
 
     def toHTML(self):
         myHTML = ""

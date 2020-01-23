@@ -16,3 +16,26 @@ from members.views.paymentGatewayErrorView import paymentGatewayErrorView
 from members.views.departmentView import departmentView
 from members.views.Activities import Activities
 from members.views.AdminSignup import AdminSignup
+
+from .department_view import DepartmentDetailView
+
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+from django import forms
+from django.utils import timezone
+from members.forms import AddressForm
+
+from members.models import Address
+from django.views.generic.edit import CreateView, DeleteView, UpdateView
+
+
+def test_form(request):
+    submitted = False
+    if request.method == "POST":
+        form = AddressForm(request.POST)
+        if form.is_valid():
+            model_instance = form.save()
+            return HttpResponseRedirect("form")
+    else:
+        form = AddressForm()
+        return render(request, "members/form_test.html", {"form": form})
