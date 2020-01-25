@@ -23,9 +23,9 @@ class Address(models.Model):
 
     streetname = models.CharField("Vejnavn", max_length=200)
     housenumber = models.CharField("Husnummer", max_length=5)
-    floor = models.CharField("Etage", max_length=10, blank=True, null=True)
-    door = models.CharField("Dør", max_length=10, blank=True, null=True)
-    placename = models.CharField("Stednavn", max_length=200, blank=True, null=True)
+    floor = models.CharField("Etage", max_length=10, blank=True)
+    door = models.CharField("Dør", max_length=10, blank=True,)
+    placename = models.CharField("Stednavn", max_length=200, blank=True)
     city = models.CharField("By", max_length=200)
     zipcode = models.CharField(
         "Postnummer", max_length=4, validators=[_zip_code_validator]
@@ -37,10 +37,8 @@ class Address(models.Model):
         ("Region Midtjylland", "Region Midtjylland"),
         ("Region Sjælland", "Region Sjælland"),
     )
-    region = models.CharField(
-        "Region", choices=REGION_CHOICES, max_length=20, null=True
-    )
-    municipality = models.CharField("Kommune", max_length=100, blank=True, null=True)
+    region = models.CharField("Region", choices=REGION_CHOICES, max_length=20)
+    municipality = models.CharField("Kommune", max_length=100, blank=True)
     longitude = models.DecimalField(
         "Længdegrad", blank=True, null=True, max_digits=9, decimal_places=6
     )
@@ -51,11 +49,9 @@ class Address(models.Model):
 
     def __str__(self):
         address = f"{self.streetname} {self.housenumber}"
-        address = f"{address} {self.floor}" if self.floor is not None else address
-        address = f"{address} {self.door}" if self.door is not None else address
-        address = (
-            f"{address}, {self.placename}" if self.placename is not None else address
-        )
+        address = f"{address} {self.floor}" if self.floor != "" else address
+        address = f"{address} {self.door}" if self.door != "" else address
+        address = f"{address}, {self.placename}" if self.placename != "" else address
         return f"{address}, {self.zipcode} {self.city}"
 
     def save(self, *args, **kwargs):
@@ -64,7 +60,7 @@ class Address(models.Model):
         super().save(*args, **kwargs)
 
     def get_dawa_data(self):
-        if self.dawa_id == "":
+        if self.dawa_id is None or self.dawa_id == "":
             wash_resp = requests.request(
                 "GET",
                 "https://dawa.aws.dk/datavask/adresser",
@@ -81,7 +77,7 @@ class Address(models.Model):
             params={"format": "geojson"},
         )
         if data_resp.status_code != 200:
-            self.dawa_id = ""
+            self.dawa_id = None
             return False
 
         dawa_data = data_resp.json()["properties"]
@@ -96,6 +92,8 @@ class Address(models.Model):
         self.latitude = dawa_data["wgs84koordinat_bredde"]
         self.region = dawa_data["regionsnavn"]
         return True
+
+    # TODO overwrite create to return if exsists
 
     @staticmethod
     def get_by_dawa_id(dawa_id):
