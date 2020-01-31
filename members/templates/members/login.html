@@ -5,20 +5,24 @@
     <form class="col-md-8 col-md-offset-1" method="post">
         {% if form.errors %}
         <div class="row">
-            <blockquote class="error">Dit brugernavn eller adgangskode var forkert. Prøv igen.</blockquote>
+            <blockquote class="error">Dit brugernavn eller adgangskode var forkert. Prøv
+                igen.</blockquote>
         </div>
         {% endif %}
         {% csrf_token %}
         <input type="hidden" name="next" value="{{ next }}">
         <div class="row center">
             <div class="loginBox col-lg-6 col-md-7 col-sm-8 col-11 ">
-                <div class="loginTitle"><span>Log ind</span></div>
+                <div class="loginTitle">
+                    <span>Log ind</span></div>
                 <div class="field">
-                    <label for="id_username">E-mail-adresse:</label> <br />
+                    <label for="id_username">E-mail-adresse:</label>
+                    <br />
                     {{ form.username }}
                 </div>
                 <div class="field">
-                    {{ form.password.label_tag }} <br />
+                    {{ form.password.label_tag }}
+                    <br />
                     {{ form.password }}
                 </div>
                 <div class="field" style="margin-top: 1.2em;">
