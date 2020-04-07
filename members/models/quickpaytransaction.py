@@ -1,9 +1,8 @@
-from quickpay_api_client import QPClient
-
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
+from quickpay_api_client import QPClient
 
 
 class QuickpayTransaction(models.Model):

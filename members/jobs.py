@@ -4,6 +4,7 @@ from django.conf import settings
 from django.db.models import F, Q
 from django.utils import timezone
 from django_cron import CronJobBase, Schedule
+
 from members.models import (
     ActivityParticipant,
     EmailItem,

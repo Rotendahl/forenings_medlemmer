@@ -1,5 +1,6 @@
 from django.core.exceptions import ValidationError
 from django.test import TestCase
+
 from members.models.equipment import Equipment
 
 from .factories import DepartmentFactory, UnionFactory

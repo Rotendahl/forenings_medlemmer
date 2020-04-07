@@ -1,4 +1,5 @@
 from django.test import TestCase
+
 from members.management.commands.dump_public_data import get_dump
 from members.models import Department, Union
 

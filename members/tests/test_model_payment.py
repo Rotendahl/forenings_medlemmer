@@ -1,4 +1,5 @@
 from django.test import TestCase
+
 from members.tests.factories import PaymentFactory
 
 

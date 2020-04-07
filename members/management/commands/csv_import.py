@@ -4,6 +4,7 @@ from optparse import make_option
 
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
+
 from members.models import Family, person
 
 

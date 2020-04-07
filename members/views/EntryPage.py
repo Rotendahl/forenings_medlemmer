@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.utils import timezone
 from django.views.decorators.clickjacking import xframe_options_exempt
+
 from members.forms import signupForm
 from members.models.family import Family
 from members.models.person import Person

@@ -1,6 +1,7 @@
-import members.models.quickpaytransaction
 from django.db import models
 from django.utils import timezone
+
+import members.models.quickpaytransaction
 
 
 class Payment(models.Model):

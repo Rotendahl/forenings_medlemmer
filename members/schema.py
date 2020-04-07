@@ -1,5 +1,6 @@
 import graphene
 from graphene_django.types import DjangoObjectType
+
 from members.models import (
     DailyStatisticsGeneral,
     DailyStatisticsRegion,

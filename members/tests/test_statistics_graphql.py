@@ -2,6 +2,7 @@ from random import randint
 
 from django.test import TestCase
 from graphene.test import Client
+
 from members.models import (
     DailyStatisticsGeneral,
     DailyStatisticsRegion,

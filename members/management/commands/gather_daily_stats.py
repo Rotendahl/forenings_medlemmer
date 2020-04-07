@@ -1,4 +1,5 @@
 from django.core.management.base import BaseCommand
+
 from members.models.statistics import gatherDayliStatistics
 
 """ A scheduler on heroku is set to run this command once per day """

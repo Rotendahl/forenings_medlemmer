@@ -5,9 +5,10 @@ import uuid
 import django.core.validators
 import django.db.models.deletion
 import django.utils.timezone
-import members.models.activityinvite
 from django.conf import settings
 from django.db import migrations, models
+
+import members.models.activityinvite
 
 
 class Migration(migrations.Migration):

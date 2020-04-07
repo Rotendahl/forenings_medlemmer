@@ -3,10 +3,10 @@ import shutil
 from zipfile import ZipFile
 
 import requests
-
 from django.core.management import call_command
 from django.core.management.base import BaseCommand
 from django.db import DatabaseError
+
 from dump_public_data import MODELS_TO_DUMP as MODELS_TO_LOAD
 from members.models import Address, Department, Union
 

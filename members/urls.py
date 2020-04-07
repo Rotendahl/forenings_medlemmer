@@ -2,6 +2,7 @@ from django.conf.urls import url
 from django.contrib.auth import views as auth_views
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView
+
 from members.views import (
     Activities,
     ActivitySignup,

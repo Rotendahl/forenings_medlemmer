@@ -4,6 +4,7 @@ from django.conf import settings
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.shortcuts import render
 from django.utils import timezone
+
 from members.models.person import Person
 from members.utils.user import has_user, user_to_person
 

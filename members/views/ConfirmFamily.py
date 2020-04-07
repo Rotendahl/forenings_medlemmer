@@ -3,6 +3,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 from django.utils import timezone
+
 from members.models.person import Person
 from members.models.waitinglist import WaitingList
 from members.utils.user import has_user, user_to_person

@@ -3,6 +3,7 @@ import datetime
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.shortcuts import render
 from django.utils import timezone
+
 from members.models import Person
 from members.models.activity import Activity
 from members.models.activityinvite import ActivityInvite

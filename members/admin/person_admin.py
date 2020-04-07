@@ -9,6 +9,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.utils import timezone
 from django.utils.html import format_html
+
 from members.models import Activity, ActivityInvite, Department, Person
 
 from .inlines import (

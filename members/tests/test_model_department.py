@@ -3,6 +3,7 @@ from random import randint
 
 from django.test import TestCase
 from django.utils import timezone
+
 from members.models import Department
 
 from .factories import ActivityFactory, DepartmentFactory

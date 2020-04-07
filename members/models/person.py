@@ -3,10 +3,10 @@ import logging
 from urllib.parse import quote_plus
 
 import requests
-
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+
 from members.utils.address import format_address
 
 logger = logging.getLogger(__name__)

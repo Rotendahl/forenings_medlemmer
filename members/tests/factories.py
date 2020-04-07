@@ -4,14 +4,14 @@
 import random
 from datetime import timedelta
 
-import pytz
-
 import factory
+import pytz
 from django.contrib.auth import get_user_model
 from django.utils import timezone
 from factory import DjangoModelFactory, Faker, LazyAttribute, SelfAttribute, SubFactory
 from factory.fuzzy import FuzzyChoice, FuzzyInteger
 from faker.providers import BaseProvider
+
 from members.models import (
     Activity,
     ActivityInvite,

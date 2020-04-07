@@ -1,8 +1,9 @@
 import uuid
 
-import members.models.emailtemplate
 from django.db import models
 from django.urls import reverse
+
+import members.models.emailtemplate
 
 from .person import Person
 

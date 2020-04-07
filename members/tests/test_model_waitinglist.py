@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import faker
 from django.test import TestCase
 from freezegun import freeze_time
+
 from members.models.waitinglist import WaitingList
 from members.tests.factories import (
     TIMEZONE,

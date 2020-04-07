@@ -1,10 +1,11 @@
 from datetime import timedelta
 
-import members.models.emailtemplate
-import members.models.waitinglist
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils import timezone
+
+import members.models.emailtemplate
+import members.models.waitinglist
 
 
 # Calculate a day 3 months in future

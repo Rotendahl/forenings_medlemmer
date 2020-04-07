@@ -10,6 +10,7 @@ from django.forms import Textarea
 from django.urls import reverse
 from django.utils import timezone
 from django.utils.html import format_html
+
 from members.models import (
     Activity,
     ActivityInvite,

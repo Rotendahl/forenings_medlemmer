@@ -1,8 +1,9 @@
+from django.db import models
+from django.utils import timezone
+
 import members.models.member
 import members.models.payment
 import members.models.waitinglist
-from django.db import models
-from django.utils import timezone
 
 
 class ActivityParticipant(models.Model):

@@ -1,5 +1,6 @@
 from django.core import mail
 from django.test import TestCase, override_settings
+
 from members.jobs import EmailSendCronJob
 from members.models.emailtemplate import EmailTemplate
 from members.models.family import Family

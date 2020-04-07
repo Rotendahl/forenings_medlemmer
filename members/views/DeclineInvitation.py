@@ -4,6 +4,7 @@ from django.http import HttpResponseBadRequest, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.utils import timezone
+
 from members.forms import ActivivtyInviteDeclineForm
 from members.models.activityinvite import ActivityInvite
 

@@ -1,4 +1,5 @@
 from django.core.management.base import BaseCommand
+
 from members.models.family import Family
 from members.models.person import Person
 

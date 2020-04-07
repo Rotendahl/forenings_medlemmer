@@ -1,10 +1,11 @@
+from django.conf import settings
+from django.db import models
+from django.template import Context, Engine
+
 import members.models.department
 import members.models.emailitem
 import members.models.family
 import members.models.person
-from django.conf import settings
-from django.db import models
-from django.template import Context, Engine
 
 
 class EmailTemplate(models.Model):
