@@ -1,7 +1,12 @@
 import graphene
 from graphene_django.types import DjangoObjectType
-from members.models import (DailyStatisticsGeneral, DailyStatisticsRegion,
-                            DailyStatisticsUnion, Department, Union)
+from members.models import (
+    DailyStatisticsGeneral,
+    DailyStatisticsRegion,
+    DailyStatisticsUnion,
+    Department,
+    Union,
+)
 from members.models.statistics import DepartmentStatistics as DepStatModel
 
 

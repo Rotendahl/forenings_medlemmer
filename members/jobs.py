@@ -4,8 +4,15 @@ from django.conf import settings
 from django.db.models import F, Q
 from django.utils import timezone
 from django_cron import CronJobBase, Schedule
-from members.models import (ActivityParticipant, EmailItem, EmailTemplate,
-                            Family, Notification, Payment, Person)
+from members.models import (
+    ActivityParticipant,
+    EmailItem,
+    EmailTemplate,
+    Family,
+    Notification,
+    Payment,
+    Person,
+)
 
 
 # Send confirmations to Activity signups, which do not have failed payments

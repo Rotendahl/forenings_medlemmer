@@ -11,12 +11,19 @@ from django.utils import timezone
 from django.utils.html import format_html
 from members.models import Activity, ActivityInvite, Department, Person
 
-from .inlines import (ActivityInviteInline, MemberInline, PaymentInline,
-                      VolunteerInline, WaitingListInline)
-from .person_admin_filters import (PersonInvitedListFilter,
-                                   PersonParticipantListFilter,
-                                   PersonWaitinglistListFilter,
-                                   VolunteerListFilter)
+from .inlines import (
+    ActivityInviteInline,
+    MemberInline,
+    PaymentInline,
+    VolunteerInline,
+    WaitingListInline,
+)
+from .person_admin_filters import (
+    PersonInvitedListFilter,
+    PersonParticipantListFilter,
+    PersonWaitinglistListFilter,
+    VolunteerListFilter,
+)
 
 
 class PersonAdmin(admin.ModelAdmin):

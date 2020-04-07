@@ -10,10 +10,24 @@ from django.forms import Textarea
 from django.urls import reverse
 from django.utils import timezone
 from django.utils.html import format_html
-from members.models import (Activity, ActivityInvite, ActivityParticipant,
-                            Address, AdminUserInformation, Department,
-                            EmailItem, EmailTemplate, Equipment, EquipmentLoan,
-                            Family, Member, Payment, Person, Union, Volunteer)
+from members.models import (
+    Activity,
+    ActivityInvite,
+    ActivityParticipant,
+    Address,
+    AdminUserInformation,
+    Department,
+    EmailItem,
+    EmailTemplate,
+    Equipment,
+    EquipmentLoan,
+    Family,
+    Member,
+    Payment,
+    Person,
+    Union,
+    Volunteer,
+)
 
 from .activity_admin import ActivityAdmin
 from .address_admin import AddressAdmin
