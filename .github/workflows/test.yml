@@ -25,6 +25,8 @@ jobs:
         run: docker-compose run web flake8
       - name: Running isort
         run: docker-compose run web isort --check-only
+      - name: Checking line endings
+        uses: erclu/check-crlf@v1
       - name: Generating coverage
         run: docker-compose run web coverage run --source='.' manage.py test
       - name: Converting coverage
