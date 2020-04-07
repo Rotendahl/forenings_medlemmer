@@ -8,15 +8,16 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
+import logging
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import sys
-import logging
-from environs import Env
+
 import dj_database_url
 import sentry_sdk
+from environs import Env
 from sentry_sdk.integrations.django import DjangoIntegration
-
 
 env = Env()
 env.read_env()
@@ -147,7 +148,6 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 ADMIN_MEDIA_PREFIX = "/static/admin/"
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "assets")]
 ADMINS = eval(os.environ["ADMINS"])
 MANAGERS = ADMINS
 
