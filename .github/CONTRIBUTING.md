@@ -21,6 +21,14 @@ You are more than welcome to contribute to the system. This guide documents how 
 -   To create a super user for the admin interface you can run
     `docker-compose run web ./manage.py createsuperuser`
 
+## Code formatting
+
+The code uses opinionated formatters to ensure that code diffs reflect actual
+changes and not formatting.
+
+[Black][black] formats python code, [Flake8][flake8] performs static analysis
+and [isort][isort] orders imports. All files should have unix style line endings.
+
 ## Primary Frameworks/Systems used
 
 -   [Django][django]: The base web framework used. The link is to their great
@@ -120,3 +128,5 @@ You are more than welcome to contribute to the system. This guide documents how 
 [quickpay]: https://learn.quickpay.net/tech-talk/api/
 
 [quickpay_cards]: https://learn.quickpay.net/tech-talk/appendixes/test/
+
+[isort]: https://github.com/timothycrosley/isort
