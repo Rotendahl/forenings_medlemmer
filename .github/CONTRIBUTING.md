@@ -68,7 +68,7 @@ and [isort][isort] orders imports. All files should have unix style line endings
     where the name of your tests replaces the last part.
 
 -   [Quickpay][quickpay]: We use QuickPay for payments, `.env.example`
-    contains a test api key. Quickpay has a series of cards that can be used
+    contains a test api key. Quickpay has a series of cards
     [for testing][quickpay_cards]
 
 ## Creating a pull request
