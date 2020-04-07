@@ -1,10 +1,10 @@
-from django.test import TestCase
-from django.core.exceptions import ValidationError
-from members.models.person import Person
 from datetime import datetime
-from freezegun import freeze_time
 
-from members.tests.factories import PersonFactory, TIMEZONE
+from django.core.exceptions import ValidationError
+from django.test import TestCase
+from freezegun import freeze_time
+from members.models.person import Person
+from members.tests.factories import TIMEZONE, PersonFactory
 
 
 class TestModelPerson(TestCase):

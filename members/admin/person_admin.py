@@ -1,37 +1,22 @@
 from datetime import timedelta
 
 from django import forms
-from django.contrib import admin
+from django.contrib import admin, messages
+from django.contrib.admin.widgets import AdminDateWidget
 from django.db import transaction
 from django.db.models import Q
 from django.http import HttpResponse
+from django.shortcuts import render
 from django.utils import timezone
 from django.utils.html import format_html
-from django.shortcuts import render
-from django.contrib.admin.widgets import AdminDateWidget
-from django.contrib import messages
+from members.models import Activity, ActivityInvite, Department, Person
 
-from members.models import (
-    Activity,
-    ActivityInvite,
-    Department,
-    Person,
-)
-
-from .person_admin_filters import (
-    VolunteerListFilter,
-    PersonWaitinglistListFilter,
-    PersonInvitedListFilter,
-    PersonParticipantListFilter,
-)
-
-from .inlines import (
-    MemberInline,
-    PaymentInline,
-    VolunteerInline,
-    ActivityInviteInline,
-    WaitingListInline,
-)
+from .inlines import (ActivityInviteInline, MemberInline, PaymentInline,
+                      VolunteerInline, WaitingListInline)
+from .person_admin_filters import (PersonInvitedListFilter,
+                                   PersonParticipantListFilter,
+                                   PersonWaitinglistListFilter,
+                                   VolunteerListFilter)
 
 
 class PersonAdmin(admin.ModelAdmin):

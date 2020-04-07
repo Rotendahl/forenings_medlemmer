@@ -1,14 +1,13 @@
-from django.test import TestCase
-from members.models import (
-    DailyStatisticsGeneral,
-    DailyStatisticsRegion,
-    DailyStatisticsUnion,
-)
-from members.models.statistics import DepartmentStatistics
-from graphene.test import Client
-from members.schema import schema
-from .factories import UnionFactory, DepartmentFactory, VolunteerFactory
 from random import randint
+
+from django.test import TestCase
+from graphene.test import Client
+from members.models import (DailyStatisticsGeneral, DailyStatisticsRegion,
+                            DailyStatisticsUnion)
+from members.models.statistics import DepartmentStatistics
+from members.schema import schema
+
+from .factories import DepartmentFactory, UnionFactory, VolunteerFactory
 
 
 class TestQueryDailyStatisticsGeneral(TestCase):

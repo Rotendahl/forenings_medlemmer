@@ -1,13 +1,12 @@
 from random import randint
 
-from django.test import TestCase
-from django.db.utils import IntegrityError
 from django.core import mail
+from django.db.utils import IntegrityError
+from django.test import TestCase
 from members.jobs import EmailSendCronJob
+from members.models.emailtemplate import EmailTemplate
 from members.models.family import Family
 from members.models.person import Person
-from members.models.emailtemplate import EmailTemplate
-
 from members.tests.factories import FamilyFactory, PersonFactory
 
 

@@ -1,19 +1,11 @@
 import datetime
 
 from django.conf import settings
-from django_cron import CronJobBase, Schedule
+from django.db.models import F, Q
 from django.utils import timezone
-from django.db.models import Q, F
-
-from members.models import (
-    EmailItem,
-    Notification,
-    EmailTemplate,
-    ActivityParticipant,
-    Payment,
-    Person,
-    Family,
-)
+from django_cron import CronJobBase, Schedule
+from members.models import (ActivityParticipant, EmailItem, EmailTemplate,
+                            Family, Notification, Payment, Person)
 
 
 # Send confirmations to Activity signups, which do not have failed payments

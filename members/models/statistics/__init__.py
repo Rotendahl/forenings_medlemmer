@@ -1,6 +1,6 @@
-from .department_statistic import DepartmentStatistics
 from django.utils import timezone
 
+from .department_statistic import DepartmentStatistics
 from .old_stat_code import old_stat_code
 
 

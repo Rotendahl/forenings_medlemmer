@@ -1,39 +1,23 @@
 # TODO: Factories for AdminUserInformation, equipment, equipment loan, emails and statistics
 # TODO: tests for departments, members, volunteers, activities, equipment, equipmentloan, statistics
 
-import pytz
-from datetime import timedelta
 import random
-from django.utils import timezone
-from django.contrib.auth import get_user_model
+from datetime import timedelta
+
+import pytz
 
 import factory
-from factory import Faker, DjangoModelFactory, SubFactory, LazyAttribute, SelfAttribute
+from django.contrib.auth import get_user_model
+from django.utils import timezone
+from factory import (DjangoModelFactory, Faker, LazyAttribute, SelfAttribute,
+                     SubFactory)
 from factory.fuzzy import FuzzyChoice, FuzzyInteger
 from faker.providers import BaseProvider
-
-
-from members.models import (
-    Activity,
-    ActivityInvite,
-    ActivityParticipant,
-    Address,
-    AdminUserInformation,
-    Department,
-    EmailItem,
-    EmailTemplate,
-    Equipment,
-    EquipmentLoan,
-    Family,
-    Member,
-    Notification,
-    Payment,
-    Person,
-    Union,
-    Volunteer,
-    WaitingList,
-    ZipcodeRegion,
-)
+from members.models import (Activity, ActivityInvite, ActivityParticipant,
+                            Address, AdminUserInformation, Department,
+                            EmailItem, EmailTemplate, Equipment, EquipmentLoan,
+                            Family, Member, Notification, Payment, Person,
+                            Union, Volunteer, WaitingList, ZipcodeRegion)
 
 
 class CodingPiratesProvider(BaseProvider):

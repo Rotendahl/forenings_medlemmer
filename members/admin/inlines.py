@@ -1,17 +1,8 @@
 from django.contrib import admin
 from django.utils import timezone
-
-from members.models import (
-    Activity,
-    ActivityInvite,
-    ActivityParticipant,
-    AdminUserInformation,
-    Department,
-    Member,
-    Payment,
-    Volunteer,
-    WaitingList,
-)
+from members.models import (Activity, ActivityInvite, ActivityParticipant,
+                            AdminUserInformation, Department, Member, Payment,
+                            Volunteer, WaitingList)
 
 
 class WaitingListInline(admin.TabularInline):

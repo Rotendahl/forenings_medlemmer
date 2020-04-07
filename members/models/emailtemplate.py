@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from django.db import models
-import members.models.emailitem
-import members.models.person
 import members.models.department
+import members.models.emailitem
 import members.models.family
+import members.models.person
 from django.conf import settings
-from django.template import Engine, Context
+from django.db import models
+from django.template import Context, Engine
 
 
 class EmailTemplate(models.Model):

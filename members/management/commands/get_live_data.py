@@ -1,13 +1,14 @@
-from zipfile import ZipFile
 import os
-from django.core.management.base import BaseCommand
-from django.core.management import call_command
-from django.db import DatabaseError
-from members.models import Department, Union, Address
-import requests
 import shutil
+from zipfile import ZipFile
 
+import requests
+
+from django.core.management import call_command
+from django.core.management.base import BaseCommand
+from django.db import DatabaseError
 from dump_public_data import MODELS_TO_DUMP as MODELS_TO_LOAD
+from members.models import Address, Department, Union
 
 
 class Command(BaseCommand):

@@ -1,25 +1,14 @@
 from django.conf.urls import url
-from members.views import (
-    FamilyDetails,
-    PersonCreate,
-    PersonUpdate,
-    WaitingListSetSubscription,
-    DeclineInvitation,
-    EntryPage,
-    userCreated,
-    ConfirmFamily,
-    QuickpayCallback,
-    ActivitySignup,
-    DepartmentSignView,
-    paymentGatewayErrorView,
-    volunteerSignup,
-    departmentView,
-    Activities,
-    AdminSignup,
-)
 from django.contrib.auth import views as auth_views
-from graphene_django.views import GraphQLView
 from django.views.decorators.csrf import csrf_exempt
+from graphene_django.views import GraphQLView
+from members.views import (Activities, ActivitySignup, AdminSignup,
+                           ConfirmFamily, DeclineInvitation,
+                           DepartmentSignView, EntryPage, FamilyDetails,
+                           PersonCreate, PersonUpdate, QuickpayCallback,
+                           WaitingListSetSubscription, departmentView,
+                           paymentGatewayErrorView, userCreated,
+                           volunteerSignup)
 
 urlpatterns = [
     url(r"^$", EntryPage, name="entry_page"),

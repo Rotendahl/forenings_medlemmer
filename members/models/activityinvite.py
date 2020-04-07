@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from django.db import models
+from datetime import timedelta
+
 import members.models.emailtemplate
 import members.models.waitinglist
 from django.core.exceptions import ValidationError
-from datetime import timedelta
+from django.db import models
 from django.utils import timezone
 
 

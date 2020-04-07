@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from django.db import models
-from django.conf import settings
 from quickpay_api_client import QPClient
+
+from django.conf import settings
+from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 

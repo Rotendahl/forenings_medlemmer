@@ -1,8 +1,7 @@
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Div, Field, Fieldset, Hidden, Layout, Submit
 from django import forms
 from django.conf import settings
-from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Fieldset, Submit, Field, Hidden, Div
-
 from members.models.person import Person
 
 

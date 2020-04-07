@@ -1,6 +1,7 @@
+from tqdm import tqdm
+
 from django.core.management.base import BaseCommand
 from members.models import Address
-from tqdm import tqdm
 
 
 class Command(BaseCommand):

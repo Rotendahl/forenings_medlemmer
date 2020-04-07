@@ -1,9 +1,9 @@
-import zipfile
 import json
+import zipfile
 from io import StringIO
 
-from django.core.management.base import BaseCommand
 from django.core.management import call_command
+from django.core.management.base import BaseCommand
 
 MODELS_TO_DUMP = ["department", "union", "address", "emailtemplate", "activity"]
 

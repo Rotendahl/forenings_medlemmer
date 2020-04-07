@@ -1,8 +1,9 @@
+import datetime
+
 from django.core.management.base import BaseCommand
-from members.models.union import Union
 from members.models.activity import Activity
 from members.models.department import Department
-import datetime
+from members.models.union import Union
 
 
 class Command(BaseCommand):

@@ -1,43 +1,28 @@
 from uuid import uuid4
+
 from django import forms
 from django.contrib import admin
+from django.contrib.auth.models import User
 from django.db import models
 from django.db.models import Q
-
-from django.contrib.auth.models import User
 from django.db.models.functions import Lower
-from django.utils import timezone
-from django.urls import reverse
-from django.utils.html import format_html
 from django.forms import Textarea
+from django.urls import reverse
+from django.utils import timezone
+from django.utils.html import format_html
+from members.models import (Activity, ActivityInvite, ActivityParticipant,
+                            Address, AdminUserInformation, Department,
+                            EmailItem, EmailTemplate, Equipment, EquipmentLoan,
+                            Family, Member, Payment, Person, Union, Volunteer)
 
-from members.models import (
-    Address,
-    AdminUserInformation,
-    Person,
-    Department,
-    Union,
-    Volunteer,
-    Member,
-    Activity,
-    ActivityInvite,
-    ActivityParticipant,
-    Family,
-    EmailItem,
-    Payment,
-    Equipment,
-    EquipmentLoan,
-    EmailTemplate,
-)
-
+from .activity_admin import ActivityAdmin
 from .address_admin import AddressAdmin
 from .department_admin import DepartmentAdmin
-from .union_admin import UnionAdmin
-from .user_admin import UserAdmin
-from .person_admin import PersonAdmin
 from .member_admin import MemberAdmin
 from .payment_admin import PaymentAdmin
-from .activity_admin import ActivityAdmin
+from .person_admin import PersonAdmin
+from .union_admin import UnionAdmin
+from .user_admin import UserAdmin
 
 admin.site.site_header = "Coding Pirates Medlemsdatabase"
 admin.site.index_title = "Afdelings admin"

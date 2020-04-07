@@ -1,20 +1,17 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from django.db import models
-from django.utils import timezone
-from django.db.models import Sum
-from django.db.models.functions import Coalesce
 from datetime import timedelta
 
-from members.models import (
-    ActivityParticipant,
-    Activity,
-    Department,
-    WaitingList,
-    Payment,
-    Volunteer,
-    Person,
-)
+from django.db import models
+from django.db.models import Sum
+from django.db.models.functions import Coalesce
+from django.utils import timezone
+
+from ..activity import Activity
+from ..activityparticipant import ActivityParticipant
+from ..department import Department
+from ..payment import Payment
+from ..person import Person
+from ..volunteer import Volunteer
+from ..waitinglist import WaitingList
 
 
 class DepartmentStatistics(models.Model):

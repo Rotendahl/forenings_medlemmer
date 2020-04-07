@@ -1,9 +1,10 @@
 import uuid
+
+import members.models.emailtemplate
 from django.db import models
 from django.urls import reverse
 
 from .person import Person
-import members.models.emailtemplate
 
 
 class Family(models.Model):

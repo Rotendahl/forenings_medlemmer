@@ -1,13 +1,13 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+import json
+import logging
+from urllib.parse import quote_plus
+
+import requests
+
+from django.conf import settings
 from django.db import models
 from django.utils import timezone
-from django.conf import settings
 from members.utils.address import format_address
-from urllib.parse import quote_plus
-import requests
-import logging
-import json
 
 logger = logging.getLogger(__name__)
 

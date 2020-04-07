@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from django.db import models
-from django.core.mail import send_mail
-from django.conf import settings
-from django.utils import timezone
 import uuid
+
+from django.conf import settings
+from django.core.mail import send_mail
+from django.db import models
+from django.utils import timezone
 
 
 class EmailItem(models.Model):

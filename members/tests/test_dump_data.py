@@ -1,7 +1,8 @@
 from django.test import TestCase
-from .factories import DepartmentFactory, AddressFactory, UnionFactory
 from members.management.commands.dump_public_data import get_dump
 from members.models import Department, Union
+
+from .factories import AddressFactory, DepartmentFactory, UnionFactory
 
 
 class TestDumpData(TestCase):

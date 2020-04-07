@@ -1,9 +1,11 @@
 from datetime import timedelta
 from random import randint
+
 from django.test import TestCase
 from django.utils import timezone
 from members.models import Department
-from .factories import DepartmentFactory, ActivityFactory
+
+from .factories import ActivityFactory, DepartmentFactory
 
 
 class TestModelDepartment(TestCase):

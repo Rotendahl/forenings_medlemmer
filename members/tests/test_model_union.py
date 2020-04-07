@@ -1,8 +1,7 @@
-from django.test import TestCase
 from django.core.exceptions import ValidationError
-
-from members.tests.factories import UnionFactory
+from django.test import TestCase
 from members.models import Union
+from members.tests.factories import UnionFactory
 
 
 class TestModelUnion(TestCase):

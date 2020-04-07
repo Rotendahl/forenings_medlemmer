@@ -1,7 +1,7 @@
 import requests
 
-from django.db import models
 from django.conf import settings
+from django.db import models
 
 from .department import Department
 from .union import Union

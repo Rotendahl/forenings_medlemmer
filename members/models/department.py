@@ -1,8 +1,9 @@
 from datetime import timedelta
-from django.db import models
+
 import members.models.emailtemplate
+from django.db import models
+from django.utils import html, timezone
 from members.models.activity import Activity
-from django.utils import timezone, html
 
 
 class Department(models.Model):

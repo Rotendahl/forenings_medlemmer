@@ -1,22 +1,19 @@
 import datetime
 
-from django.db.models.functions import Coalesce
 from django.db.models import Sum
+from django.db.models.functions import Coalesce
 
-
-from members.models import (
-    Activity,
-    ActivityParticipant,
-    DailyStatisticsGeneral,
-    DailyStatisticsRegion,
-    DailyStatisticsUnion,
-    Department,
-    Family,
-    Payment,
-    Person,
-    Union,
-    ZipcodeRegion,
-)
+from ..activity import Activity
+from ..activityparticipant import ActivityParticipant
+from ..dailystatisticsgeneral import DailyStatisticsGeneral
+from ..dailystatisticsregion import DailyStatisticsRegion
+from ..dailystatisticsunion import DailyStatisticsUnion
+from ..department import Department
+from ..family import Family
+from ..payment import Payment
+from ..person import Person
+from ..union import Union
+from ..zipcoderegion import ZipcodeRegion
 
 
 def old_stat_code(timestamp):
